@@ -1,0 +1,30 @@
+.full{
+    width: 100%;
+    display: flex;
+    height: 90vh;
+}
+.left{
+    background-color: #ffc7b0;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Rubik Burned', system-ui;
+    color: #ff8600;
+}
+.left span{
+    color:#910000;
+}
+.right{
+   position: relative;
+   float: right;
+width: 50%;
+}
+.burger{
+    height: 90vh;
+}

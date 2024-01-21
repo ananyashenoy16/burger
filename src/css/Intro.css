@@ -1,0 +1,22 @@
+.main{
+    background: #ffc7b0;
+    height: 70vh;
+    display: flex;
+}
+.left img{
+    height: 400px;
+    width: 450px;
+}
+.right .panel h1{
+    font-size: 50px;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+}
+.panel{
+    padding: 30px;
+}
+.right .panel p{
+
+    font-size: 20px;
+    font-weight: 600;
+}

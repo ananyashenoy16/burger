@@ -1,0 +1,29 @@
+.new{
+    padding: 20px;
+    height: 60vh;
+    background: #ffc7b0;
+    display: flex;
+    width: 100%;
+}
+.new h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+.myleft{
+    background-color: #ffc7b0;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myright{
+   
+        position: relative;
+        float: right;
+     width: 50%;
+     padding: 30px;
+  
+}

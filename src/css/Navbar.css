@@ -1,0 +1,56 @@
+/* Navbar.css */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 100%, 28%,0.8);
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; /* Adjust the width of your logo */
+    height: 40px; /* Adjust the height of your logo */
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 1.8rem;
+    font-weight: bold; 
+    font-family: 'Rubik Burned', system-ui;
+    color: #fff; /* Set your text color */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ff8600; /* Set your link color */
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6b6b; /* Set your hover color */
+  }
+  
