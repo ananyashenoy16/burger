@@ -53,4 +53,8 @@ body{
   .nav-links a:hover {
     color: #ff6b6b; /* Set your hover color */
   }
-  
+  @media (max-width:500px) and (min-width:300px){
+    .nav-links{
+      display: none;
+    }
+  }

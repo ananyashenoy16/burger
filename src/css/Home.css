@@ -28,3 +28,16 @@ width: 50%;
 .burger{
     height: 90vh;
 }
+@media (max-width:500px) and (min-width:300px){
+.full{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left, .right{
+    width: 100%;
+    height: 50%;
+}
+.burger{
+    height: 50vh;
+}
+}
